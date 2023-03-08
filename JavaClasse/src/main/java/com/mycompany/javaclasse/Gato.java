@@ -9,10 +9,10 @@ package com.mycompany.javaclasse;
 
 public class Gato {
     
-    char sexo;
-    String cor;
-    String corOlhos;
-    int idade;
-    double peso;
+    public char sexo;
+    public String cor;
+    public String corOlhos;
+    public int idade;
+    public double peso;
     
 }
