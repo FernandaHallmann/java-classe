@@ -15,4 +15,13 @@ public class Gato {
     public int idade;
     public double peso;
     
+    public void miar() {
+        if (tamanho > 30) 
+            System.out.println("Meow, Meow!");
+        else if (tamanho > 10)
+            System.out.println("Miau, Miau!");
+        else
+            System.out.println("Miu, Miu!");
+    }
+    
 }
